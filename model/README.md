@@ -2,13 +2,26 @@
 
 - 실험1 (xBD_2.ipynb)
 ```md
-  프로젝트 설명
-  Accuracy: 96.62%
-  MIoU: 0.9408
-  F1 스코어: 0.6392
-  활성화 함수 sigmoid
-  binary_crossentropy 손실함수 적용
-  이미지 크기 512로 훈련
-  train: 1799, val: 1000, test: 항상 933
-  epoch: 20
+- 프로젝트 설명
+- Accuracy: 96.62%
+- MIoU: 94.08
+- F1 스코어: 0.639
+- 활성화 함수 sigmoid
+- binary_crossentropy 손실함수 적용
+- 이미지 크기 512로 훈련
+- train: 1799, val: 1000, test: 항상 933
+- epoch: 20
 ```
+
+- 실험2 (xBD_3.ipynb)
+```md
+- Accuracy: 96.92%
+- MIOU: 94.08
+- F1 Score: 0.705
+- 활성화 함수 sigmoid
+- binary_crossentropy 손실함수 적용
+- 이미지 크기 512로 훈련
+- train: 1866, val: 933, test: 항상 933
+- epoch: 20
+```
+
