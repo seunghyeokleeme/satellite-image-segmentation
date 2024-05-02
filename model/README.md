@@ -37,3 +37,14 @@
 - epoch: 10
 ```
 
+- 실험4 (xBD_5.ipynb)
+```md
+- Accuracy: 96.72%
+- MIOU: 96.59
+- F1 Score: 0.698
+- 활성화 함수 sigmoid
+- binary_crossentropy 손실함수 적용
+- 이미지 크기 512로 훈련
+- train: 1866, val: 933, test: 항상 933
+- epoch: 50
+```
