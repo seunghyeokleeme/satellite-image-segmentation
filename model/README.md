@@ -11,6 +11,7 @@
 - 이미지 크기 512로 훈련
 - train: 1799, val: 1000, test: 항상 933
 - epoch: 20
+- ModelCheckpoint.saveBestOnly train accuracy
 ```
 
 - 실험2 (xBD_3.ipynb)
@@ -23,6 +24,7 @@
 - 이미지 크기 512로 훈련
 - train: 1866, val: 933, test: 항상 933
 - epoch: 20
+- ModelCheckpoint.saveBestOnly train accuracy
 ```
 
 - 실험3 (xBD_4.ipynb)
@@ -35,6 +37,7 @@
 - 이미지 크기 512로 훈련
 - train: 1866, val: 933, test: 항상 933
 - epoch: 10
+- ModelCheckpoint.saveBestOnly train accuracy
 ```
 
 - 실험4 (xBD_5.ipynb)
@@ -47,4 +50,5 @@
 - 이미지 크기 512로 훈련
 - train: 1866, val: 933, test: 항상 933
 - epoch: 50
+- ModelCheckpoint.saveBestOnly train accuracy
 ```
