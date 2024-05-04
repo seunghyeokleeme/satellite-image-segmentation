@@ -17,7 +17,7 @@
 - 실험2 (xBD_3.ipynb)
 ```md
 - Accuracy: 96.92%
-- MIOU: 94.08
+- MIOU: 94.08 -> 96.80
 - F1 Score: 0.705
 - 활성화 함수 sigmoid
 - binary_crossentropy 손실함수 적용
