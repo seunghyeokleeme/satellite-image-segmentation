@@ -65,3 +65,16 @@
 - epoch: 20
 - ModelCheckpoint.saveBestOnly train val_loss
 ```
+
+- 실험6 (xBD_7.ipynb)
+```md
+- Accuracy: 93.78%
+- MIOU: 93.60
+- F1 Score: 0.477
+- 활성화 함수 sigmoid
+- Dice loss 손실함수 적용
+- 이미지 크기 512로 훈련
+- train: 1866, val: 933, test: 항상 933
+- epoch: 20
+- ModelCheckpoint.saveBestOnly train val_loss
+```
