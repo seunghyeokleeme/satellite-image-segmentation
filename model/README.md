@@ -104,3 +104,16 @@
 - epoch: 20
 - ModelCheckpoint.saveBestOnly train val_loss
 ```
+
+- 실험9 (xBD_10.ipynb)
+```md
+- Accuracy: 93.16%
+- MIOU: 92.90
+- F1 Score: 0.518
+- 활성화 함수 sigmoid
+- tversky_loss 손실함수 적용
+- 이미지 크기 512로 훈련
+- train: 1866, val: 933, test: 항상 933
+- epoch: 20
+- ModelCheckpoint.saveBestOnly train val_loss
+```
