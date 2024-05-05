@@ -94,8 +94,8 @@
 
 - 실험8 (xBD_9.ipynb)
 ```md
-- Accuracy: 0.06%
-- MIOU: 0.0317e-07
+- Accuracy: 5.92%
+- MIOU: 0.00000317
 - F1 Score: 0.112
 - 활성화 함수 sigmoid
 - Focal 손실함수 적용
