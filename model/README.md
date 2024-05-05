@@ -52,3 +52,16 @@
 - epoch: 50
 - ModelCheckpoint.saveBestOnly train accuracy
 ```
+
+- 실험5 (xBD_6.ipynb)
+```md
+- Accuracy: 96.67%
+- MIOU: 96.55
+- F1 Score: 0.685
+- 활성화 함수 sigmoid
+- binary_crossentropy 손실함수 적용
+- 이미지 크기 512로 훈련
+- train: 1866, val: 933, test: 항상 933
+- epoch: 20
+- ModelCheckpoint.saveBestOnly train val_loss
+```
